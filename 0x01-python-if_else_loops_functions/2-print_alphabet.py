@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for lowalphacase in range(97 , 123) :
-    print(F"{chr(lowalphacase)}", end="")
+for m in range(97, 123):
+    print("{}".format(chr(m)), end="")
