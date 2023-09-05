@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for lowalphacase in range(98 , 123) :
-    if lowalphacase != 101 and lowalphacase != 113 :
-        print(F"{chr(lowalphacase)}", end="")
+for m in range(97, 123):
+    if (m != 101 and m != 113):
+        print("{}".format(chr(m)), end='')
