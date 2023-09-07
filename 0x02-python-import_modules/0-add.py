@@ -5,4 +5,4 @@ if __name__ == "__main__":
 a = 1
 b = 2
 c = add(a, b)
-print(F"{a} + {b} = {c}")
+print("{} + {} = {}".format(a, b, c))
