@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""Defines a file-writing function."""
+"""Appends a string of a text file"""
 
 
-def write_file(filename="", text=""):
-    """Write a string to a UTF"""
-    with open(filename, "w", encoding="utf-8") as f:
+def append_write(filename="", text=""):
+    """Appends a string of a text file"""
+    with open(filename, 'a') as f:
         return f.write(text)
